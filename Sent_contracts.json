@@ -1,1 +1,9 @@
-{}
+{
+  "symbol": "AAPL",
+  "option_symbol": "AAPL250621C00180000",
+  "timestamp": "2025-06-14T00:50:39.707322",
+  "volume": 1000,
+  "oi": 1500,
+  "notional": 180000,
+  "score": 10.5
+}
