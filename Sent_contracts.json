@@ -1,3 +1,40 @@
 {
-  "__restored__": true
+  "__restored__": true,
+  "META250815C00800000": {
+    "symbol": "META",
+    "timestamp": "2025-08-12T19:04:53.279771",
+    "strike": 800.0,
+    "final_score": 9.04,
+    "score_components": {
+      "base": 10.5,
+      "smart_match": -1.46,
+      "momentum": -1.0,
+      "delta": 0.75,
+      "iv_guard": 0.25
+    },
+    "profile": "Hybrid-Strict",
+    "consensus": null,
+    "sm_weight": 0.975,
+    "unknown_ratio": 0.048,
+    "mtf_votes": "0/5",
+    "mtf_bonus": -0.25,
+    "mtf_details": [
+      "5m:-0.75|Chop",
+      "15m:-0.75|Chop",
+      "1h:-0.75|Chop",
+      "4h:-0.75|Chop",
+      "1d:-0.75|Chop"
+    ],
+    "momentum_label": "0/5|Chop",
+    "smart_match_label": "StrongSell",
+    "iv_guard_label": "IV_Low",
+    "direction_label": null,
+    "direction_votes": null,
+    "golden": true,
+    "golden_reason": "Golden:MegaSweep,DeltaVolCore",
+    "quality": "golden"
+  },
+  "__last__:META:buy": "2025-08-12T19:04:53",
+  "__risk__:2025-08-12:total": 1,
+  "__risk__:2025-08-12:sector:Comm": 1
 }
