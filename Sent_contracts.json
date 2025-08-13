@@ -72,34 +72,34 @@
     "quality": "golden"
   },
   "__risk__:2025-08-13:total": 2,
-  "__risk__:2025-08-13:sector:Comm": 1,
-  "TSLA250815P00340000": {
-    "symbol": "TSLA",
-    "timestamp": "2025-08-13T19:58:19.908412",
-    "strike": 340.0,
-    "final_score": 10.0,
+  "__risk__:2025-08-13:sector:Comm": 2,
+  "RDDT250815P00230000": {
+    "symbol": "RDDT",
+    "timestamp": "2025-08-13T19:58:27.348408",
+    "strike": 230.0,
+    "final_score": 10.25,
     "score_components": {
-      "base": 10.0,
+      "base": 9.5,
       "smart_match": 0.0,
-      "momentum": -1.0,
-      "delta": 0.75,
+      "momentum": 0.0,
+      "delta": 0.5,
       "iv_guard": 0.25
     },
     "profile": "Hybrid-Strict",
     "consensus": null,
-    "sm_weight": 0.933,
-    "unknown_ratio": 0.132,
-    "mtf_votes": "0/5",
-    "mtf_bonus": -0.25,
+    "sm_weight": 0.833,
+    "unknown_ratio": 0.333,
+    "mtf_votes": "4/5",
+    "mtf_bonus": 0.75,
     "mtf_details": [
       "5m:-0.75|Chop",
-      "15m:-0.75|Chop",
-      "1h:-0.75|Chop",
-      "4h:-0.75|Chop",
-      "1d:-0.75|Chop"
+      "15m:+0.25|ReversalEarly",
+      "1h:+0.25|ReversalEarly",
+      "4h:+0.25|ReversalEarly",
+      "1d:+0.25|ReversalEarly"
     ],
-    "momentum_label": "0/5|Chop",
-    "smart_match_label": "NeutralLo",
+    "momentum_label": "4/5|Chop",
+    "smart_match_label": "NeutralHi",
     "iv_guard_label": "IV_Low",
     "direction_label": null,
     "direction_votes": null,
@@ -107,6 +107,5 @@
     "golden_reason": "Golden:MegaSweep,DeltaVolCore",
     "quality": "golden"
   },
-  "__last__:TSLA:sell": "2025-08-13T19:58:19",
-  "__risk__:2025-08-13:sector:ConsDisc": 1
+  "__last__:RDDT:sell": "2025-08-13T19:58:27"
 }
