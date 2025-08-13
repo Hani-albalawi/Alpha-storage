@@ -71,6 +71,42 @@
     "golden_reason": "Golden:MegaSweep,DeltaVolCore,MomentumBreakout",
     "quality": "golden"
   },
-  "__risk__:2025-08-13:total": 1,
-  "__risk__:2025-08-13:sector:Comm": 1
+  "__risk__:2025-08-13:total": 2,
+  "__risk__:2025-08-13:sector:Comm": 1,
+  "TSLA250815P00340000": {
+    "symbol": "TSLA",
+    "timestamp": "2025-08-13T19:58:19.908412",
+    "strike": 340.0,
+    "final_score": 10.0,
+    "score_components": {
+      "base": 10.0,
+      "smart_match": 0.0,
+      "momentum": -1.0,
+      "delta": 0.75,
+      "iv_guard": 0.25
+    },
+    "profile": "Hybrid-Strict",
+    "consensus": null,
+    "sm_weight": 0.933,
+    "unknown_ratio": 0.132,
+    "mtf_votes": "0/5",
+    "mtf_bonus": -0.25,
+    "mtf_details": [
+      "5m:-0.75|Chop",
+      "15m:-0.75|Chop",
+      "1h:-0.75|Chop",
+      "4h:-0.75|Chop",
+      "1d:-0.75|Chop"
+    ],
+    "momentum_label": "0/5|Chop",
+    "smart_match_label": "NeutralLo",
+    "iv_guard_label": "IV_Low",
+    "direction_label": null,
+    "direction_votes": null,
+    "golden": true,
+    "golden_reason": "Golden:MegaSweep,DeltaVolCore",
+    "quality": "golden"
+  },
+  "__last__:TSLA:sell": "2025-08-13T19:58:19",
+  "__risk__:2025-08-13:sector:ConsDisc": 1
 }
