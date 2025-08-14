@@ -107,5 +107,42 @@
     "golden_reason": "Golden:MegaSweep,DeltaVolCore",
     "quality": "golden"
   },
-  "__last__:RDDT:sell": "2025-08-13T19:58:27"
+  "__last__:RDDT:sell": "2025-08-13T19:58:27",
+  "AMZN250822P00232500": {
+    "symbol": "AMZN",
+    "timestamp": "2025-08-14T18:13:27.410104",
+    "strike": 232.5,
+    "final_score": 12.0,
+    "score_components": {
+      "base": 10.0,
+      "smart_match": 0.0,
+      "momentum": 1.0,
+      "delta": 0.75,
+      "iv_guard": 0.25
+    },
+    "profile": "Hybrid-Strict",
+    "consensus": null,
+    "sm_weight": 0.842,
+    "unknown_ratio": 0.314,
+    "mtf_votes": "5/5",
+    "mtf_bonus": 0.75,
+    "mtf_details": [
+      "5m:+0.25|ReversalEarly",
+      "15m:+0.25|ReversalEarly",
+      "1h:+0.25|ReversalEarly",
+      "4h:+0.25|ReversalEarly",
+      "1d:+0.25|ReversalEarly"
+    ],
+    "momentum_label": "5/5|ReversalEarly",
+    "smart_match_label": "NeutralLo",
+    "iv_guard_label": "IV_Low",
+    "direction_label": null,
+    "direction_votes": null,
+    "golden": true,
+    "golden_reason": "Golden:MegaSweep,DeltaVolCore,MomentumBreakout",
+    "quality": "golden"
+  },
+  "__last__:AMZN:sell": "2025-08-14T18:13:27",
+  "__risk__:2025-08-14:total": 1,
+  "__risk__:2025-08-14:sector:ConsDisc": 1
 }
