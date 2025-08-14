@@ -143,6 +143,42 @@
     "quality": "golden"
   },
   "__last__:AMZN:sell": "2025-08-14T18:13:27",
-  "__risk__:2025-08-14:total": 1,
-  "__risk__:2025-08-14:sector:ConsDisc": 1
+  "__risk__:2025-08-14:total": 2,
+  "__risk__:2025-08-14:sector:ConsDisc": 1,
+  "AVGO250822P00310000": {
+    "symbol": "AVGO",
+    "timestamp": "2025-08-14T19:56:58.874714",
+    "strike": 310.0,
+    "final_score": 11.07,
+    "score_components": {
+      "base": 10.5,
+      "smart_match": -0.68,
+      "momentum": 0.25,
+      "delta": 0.75,
+      "iv_guard": 0.25
+    },
+    "profile": "Hybrid-Strict",
+    "consensus": null,
+    "sm_weight": 0.906,
+    "unknown_ratio": 0.188,
+    "mtf_votes": "2/5",
+    "mtf_bonus": 0.0,
+    "mtf_details": [
+      "5m:+0.25|ReversalEarly",
+      "15m:-0.75|Chop",
+      "1h:-0.75|Chop",
+      "4h:-0.75|Chop",
+      "1d:+0.25|ReversalEarly"
+    ],
+    "momentum_label": "2/5|ReversalEarly",
+    "smart_match_label": "BuyFlow",
+    "iv_guard_label": "IV_Low",
+    "direction_label": null,
+    "direction_votes": null,
+    "golden": true,
+    "golden_reason": "Golden:MegaSweep,DeltaVolCore",
+    "quality": "golden"
+  },
+  "__last__:AVGO:sell": "2025-08-14T19:56:58",
+  "__risk__:2025-08-14:sector:Unknown": 1
 }
