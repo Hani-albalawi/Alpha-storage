@@ -180,5 +180,51 @@
     "quality": "golden"
   },
   "__last__:HOOD:sell": "2025-08-14T19:57:16",
-  "__risk__:2025-08-14:sector:Unknown": 1
+  "__risk__:2025-08-14:sector:Unknown": 1,
+  "TSLA250822P00330000": {
+    "symbol": "TSLA",
+    "timestamp": "2025-08-18T16:38:43.101975",
+    "strike": 330.0,
+    "final_score": 10.5,
+    "score_components": {
+      "base": 10.5,
+      "smart_match": 0.0,
+      "momentum": -1.0,
+      "delta": 0.75,
+      "iv_guard": 0.25
+    },
+    "profile": "Hybrid-Strict",
+    "consensus": null,
+    "sm_weight": 0.854,
+    "unknown_ratio": 0.292,
+    "mtf_votes": "0/5",
+    "mtf_bonus": -0.25,
+    "mtf_details": [
+      "5m:-0.75|Chop",
+      "15m:-0.75|Chop",
+      "1h:-0.75|Chop",
+      "4h:-0.75|Chop",
+      "1d:-0.75|Chop"
+    ],
+    "momentum_label": "0/5|Chop",
+    "smart_match_label": "NeutralLo",
+    "iv_guard_label": "IV_Low",
+    "direction_label": null,
+    "direction_votes": null,
+    "golden": true,
+    "golden_reason": "Golden:MegaSweep,DeltaVolCore",
+    "quality": "golden",
+    "source": "hybrid",
+    "strict_gate": {
+      "spread_ok": true,
+      "dte_ok": true,
+      "momentum_ok": false,
+      "mtf_ok": false,
+      "dp_ok": false,
+      "notional_ok": true
+    }
+  },
+  "__last__:TSLA:sell": "2025-08-18T16:38:43",
+  "__risk__:2025-08-18:total": 1,
+  "__risk__:2025-08-18:sector:ConsDisc": 1
 }
