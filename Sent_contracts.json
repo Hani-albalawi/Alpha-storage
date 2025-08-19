@@ -270,5 +270,51 @@
       "notional_ok": true
     }
   },
-  "__risk__:2025-08-18:sector:Comm": 1
+  "__risk__:2025-08-18:sector:Comm": 1,
+  "HOOD250822C00108000": {
+    "symbol": "HOOD",
+    "timestamp": "2025-08-19T17:23:04.506377",
+    "strike": 108.0,
+    "final_score": 10.86,
+    "score_components": {
+      "base": 9.5,
+      "smart_match": -0.64,
+      "momentum": 1.0,
+      "delta": 0.75,
+      "iv_guard": 0.25
+    },
+    "profile": "Hybrid-Strict",
+    "consensus": null,
+    "sm_weight": 0.857,
+    "unknown_ratio": 0.277,
+    "mtf_votes": "5/5",
+    "mtf_bonus": 0.75,
+    "mtf_details": [
+      "5m:+0.25|ReversalEarly",
+      "15m:+0.25|ReversalEarly",
+      "1h:+0.25|ReversalEarly",
+      "4h:+0.25|ReversalEarly",
+      "1d:+0.25|ReversalEarly"
+    ],
+    "momentum_label": "5/5|ReversalEarly",
+    "smart_match_label": "MildSell",
+    "iv_guard_label": "IV_Low",
+    "direction_label": null,
+    "direction_votes": null,
+    "golden": true,
+    "golden_reason": "Golden:MegaSweep,DeltaVolCore,MomentumBreakout",
+    "quality": "golden",
+    "source": "hybrid",
+    "strict_gate": {
+      "spread_ok": true,
+      "dte_ok": true,
+      "momentum_ok": true,
+      "mtf_ok": true,
+      "dp_ok": false,
+      "notional_ok": true
+    }
+  },
+  "__last__:HOOD:buy": "2025-08-19T17:23:04",
+  "__risk__:2025-08-19:total": 1,
+  "__risk__:2025-08-19:sector:Unknown": 1
 }
