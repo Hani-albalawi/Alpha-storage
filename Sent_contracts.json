@@ -142,7 +142,7 @@
     "golden_reason": "Golden:MegaSweep,DeltaVolCore,MomentumBreakout",
     "quality": "golden"
   },
-  "__last__:AMZN:sell": "2025-08-14T18:13:27",
+  "__last__:AMZN:sell": "2025-08-21T19:58:30",
   "__risk__:2025-08-14:total": 2,
   "__risk__:2025-08-14:sector:ConsDisc": 1,
   "HOOD250822P00111000": {
@@ -406,5 +406,50 @@
   },
   "__last__:PLTR:sell": "2025-08-20T17:20:08",
   "__risk__:2025-08-20:total": 1,
-  "__risk__:2025-08-20:sector:Unknown": 1
+  "__risk__:2025-08-20:sector:Unknown": 1,
+  "AMZN250829P00222500": {
+    "symbol": "AMZN",
+    "timestamp": "2025-08-21T19:58:30.740539",
+    "strike": 222.5,
+    "final_score": 10.94,
+    "score_components": {
+      "base": 10.5,
+      "smart_match": 0.44,
+      "momentum": -1.0,
+      "delta": 0.75,
+      "iv_guard": 0.25
+    },
+    "profile": "Hybrid-Strict",
+    "consensus": null,
+    "sm_weight": 0.871,
+    "unknown_ratio": 0.257,
+    "mtf_votes": "0/5",
+    "mtf_bonus": -0.25,
+    "mtf_details": [
+      "5m:-0.75|Chop",
+      "15m:-0.75|Chop",
+      "1h:-0.75|Chop",
+      "4h:-0.75|Chop",
+      "1d:-0.75|Chop"
+    ],
+    "momentum_label": "0/5|Chop",
+    "smart_match_label": "MildSell",
+    "iv_guard_label": "IV_Low",
+    "direction_label": null,
+    "direction_votes": null,
+    "golden": true,
+    "golden_reason": "Golden:MegaSweep,DeltaVolCore",
+    "quality": "golden",
+    "source": "hybrid",
+    "strict_gate": {
+      "spread_ok": true,
+      "dte_ok": false,
+      "momentum_ok": false,
+      "mtf_ok": false,
+      "dp_ok": true,
+      "notional_ok": true
+    }
+  },
+  "__risk__:2025-08-21:total": 1,
+  "__risk__:2025-08-21:sector:ConsDisc": 1
 }
